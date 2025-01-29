@@ -9,7 +9,8 @@ pragma solidity ^0.8.2;
 contract globalVariable{
     address public myAddress = msg.sender;
     uint public time = block.timestamp; //UNIX timestamps
-    uint public difficulty = block.difficulty;
+    // uint public difficulty = block.difficulty;
+    uint public difficulty = block.prevrandao;
     uint public gasCost = tx.gasprice;
 
 }
