@@ -11,7 +11,7 @@ pragma solidity ^0.8.2;
 // Store in hexdecimal- https://www.rapidtables.com/code/text/ascii-table.html
 
 
-contract Bytes{
+contract fixedBytes{
     bytes5 public temp1; // 0x0000000000
     bytes7 public temp2; //0x00000000000000
     bytes7 public temp3; //0x00000000000000
