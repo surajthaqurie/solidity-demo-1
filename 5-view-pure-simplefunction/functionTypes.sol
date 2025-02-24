@@ -4,7 +4,7 @@ pragma solidity ^0.8.2;
 
 // view-> Readonly, blockchain, state variables, global variables and not writeable
 // pure -> Not readonly not writeable
-// simple-> writeable
+// simple-> writeable -> transactional function (no returns) 
 
 contract functionTypes{
 
